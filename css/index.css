@@ -1,0 +1,205 @@
+
+body {
+    background: #FFE713;
+    color: #000;
+    font-size: 12px;
+}
+
+.swiper-container {
+    width: 320px;
+    height: 486px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -243px;
+    margin-left: -160px;
+}
+
+.swiper-container .scroll-bar {
+    position: absolute;
+    left: auto;
+    right: 0;
+}
+#page{
+    position: absolute;
+    right: 10px;
+    bottom: 4px;
+    color: #000;
+}
+.slide1 .ren {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -145px;
+}
+
+.slide1 .kuai {
+    position: absolute;
+    top: -30px;
+    left: 7px;
+    width: 60px;
+}
+
+.slide1 .le {
+    position: absolute;
+    top: -30px;
+    right: 7px;
+    width: 60px;
+}
+
+.slide1 .title {
+    width: 100%;
+    margin: 34px auto 0;
+    text-align: center;
+}
+
+.slide1 .title .title-pic {
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.slide1 .title p.title-text {
+    font-size: 21px;
+}
+
+.slide1 .title p.title-text2 {
+    font-size: 16px;
+}
+
+#audio_btn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 2;
+    width: 30px;
+    height: 30px
+}
+
+.off {
+    background-image: url(../images/normalmusic.svg);
+    background-size: contain;
+}
+
+.rotate {
+    -webkit-animation: rotating 1.2s linear infinite;
+    -moz-animation: rotating 1.2s linear infinite;
+    -o-animation: rotating 1.2s linear infinite;
+    animation: rotating 1.2s linear infinite
+}
+
+@-webkit-keyframes rotating {
+    from {
+        -webkit-transform: rotate(0)
+    }
+
+    to {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@keyframes rotating {
+    from {
+        transform: rotate(0)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+@-moz-keyframes rotating {
+    from {
+        -moz-transform: rotate(0)
+    }
+
+    to {
+        -moz-transform: rotate(360deg)
+    }
+}
+.commonHeader  .ren {
+    float: right;
+    width: 122px;
+    height: 127px;
+    margin-right: 25px;
+}
+.commonHeader .content {
+    padding-top: 100px;
+}
+.commonHeader  .content h3 {
+    font-size: 26px;
+    margin-bottom: 32px
+}
+.commonHeader  .content img {
+    position: absolute;
+    width: 263px;
+    left: 25px;
+}
+.commonHeader .content img.img1 {
+    top: 130px;
+}
+.commonHeader  .content img.img2 {
+    top: 136px;
+}
+.commonHeader  .content img.img3 {
+    top: 142px;
+}
+.slide2,.slide3,.slide4{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.slide2 .text p {
+    line-height: 26px;
+}
+
+.slide2 .content-detail {
+    margin-top: 30px;
+    float: right;
+}
+
+.slide3 .event .box {
+    width: 272px;
+    height: 78px;
+    margin-bottom: 14px;
+}
+
+.slide3 .event .box img {
+    position: absolute;
+    width: 272px;
+    height: 78px;
+    z-index: -1;
+}
+
+.slide3 .event .box .left {
+    width: 80px;
+    text-align: center;
+}
+
+.slide3 .event .box .left h4 {
+    font-size: 20px;
+    line-height: 78px;
+}
+
+.slide3 .event .box i {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 60px;
+    margin-top: 9px;
+    background: #000;
+}
+
+.slide3 .event .box .right {
+    padding: 17px 9px;
+}
+
+.slide3 .event .box .right h4 {
+    font-size: 20px;
+}
+
+.slide3 .event .box .right p {
+    font-size: 12px;
+    line-height: 16px;
+}
+.slide4 img{
+    margin-bottom: 15px;
+}
